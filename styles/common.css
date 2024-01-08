@@ -1,0 +1,16 @@
+:root {
+  --bg-color: #000;
+  --main-text-color: #FFF;
+  font-size: 12px;
+}
+
+.main-bg {
+  background-color: black;
+  background-color: rgb(0, 0, 0);
+  background-color: var(--bg-color);
+  color: white;
+  color: rgb(255, 255, 255);
+  color: #ffffff;
+  color: #FFF;
+  color: var(--main-text-color);
+}

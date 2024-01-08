@@ -1,0 +1,18 @@
+
+.footer {
+  background-color: blue;
+  margin-top: 200px;
+  padding-top: 20px;
+          /* T - R  - B  - L*/
+  padding: 20px 30px 20px 30px;
+          /* Y - X */
+  padding: 20px 30px;
+        /* todos los lados */
+  padding: 1.25rem 30%;
+
+  /*
+  rem / em
+  1rem - 16px
+  */
+  font-size: 2rem;
+}
