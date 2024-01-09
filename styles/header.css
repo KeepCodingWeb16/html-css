@@ -8,6 +8,9 @@
   */
   position: sticky;
   top: 0;
+  display: flex;
+  padding: 0.8rem;
+  justify-content: space-between;
 }
 
 .header .header__image {
@@ -23,6 +26,8 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  gap: 10px;
 }
 
 .header__nav__list .header__nav__list__item a {

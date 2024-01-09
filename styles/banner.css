@@ -1,6 +1,9 @@
 .banner {
   height: 75dvh;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner__content {
