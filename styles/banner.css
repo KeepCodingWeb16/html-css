@@ -1,0 +1,42 @@
+.banner {
+  height: 75dvh;
+  position: relative;
+}
+
+.banner__content {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.banner__image {
+  position: absolute;
+  opacity: 0.3;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url('../assets/app/catalog.jpg');
+  background-size: 450px;
+  /*
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  */
+}
+/*
+div.banner__content h1 {
+  margin-top: 0;
+}
+div.banner__content h2 {
+  margin-top: 0;
+}
+div.banner__content p {
+  margin-top: 0;
+}
+*/
+div.banner__content h1,
+div.banner__content h2,
+div.banner__content p {
+  margin-top: 0;
+}
