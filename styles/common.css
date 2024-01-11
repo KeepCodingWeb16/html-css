@@ -29,3 +29,11 @@
     color: red;
   }
 }
+/*
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #FFF;
+    --main-text-color: #000;
+  }
+}
+*/

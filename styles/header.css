@@ -34,3 +34,10 @@
 .header__nav__list .header__nav__list__item a {
   text-decoration: none;
 }
+
+@media (width > 768px) { /* breakpoints */
+/* @media (min-width: 768px) {*/
+  .header__nav .header__nav__list .header__nav__list__item.hidden {
+    display: block;
+  }
+}

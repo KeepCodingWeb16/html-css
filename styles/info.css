@@ -24,3 +24,28 @@
   position: relative;
   max-width: 382px;
 }
+
+@media (width < 425px) {
+  .info .info__video {
+    display: flex;
+    justify-content: center;
+  }
+
+  .info .info__video video {
+    left: auto;
+    width: 65%;
+  }
+}
+
+@media (width > 768px) {
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .info .info__video video {
+    left: 50px;
+    width: 205px;
+  }
+}
