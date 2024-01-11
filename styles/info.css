@@ -25,6 +25,12 @@
   max-width: 382px;
 }
 
+@media (hover: hover) {
+  .info .info__text h2:hover {
+    color: yellow;
+  }
+}
+
 @media (width < 425px) {
   .info .info__video {
     display: flex;
