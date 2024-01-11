@@ -34,16 +34,3 @@
 .header__nav__list .header__nav__list__item a {
   text-decoration: none;
 }
-
-.btn {
-  color: var(--main-text-color);
-  background-color: var(--main-brand-color);
-  padding: 0.8rem;
-  display: inline-block;
-  border-radius: 5px;
-}
-
-.hidden {
-  display: none;
-  /*visibility: hidden;*/
-}
