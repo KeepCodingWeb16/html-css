@@ -4,6 +4,23 @@
   max-width: 768px;
 }
 
+.info .info__video {
+  position: relative;
+}
+
 .info img, .info video {
   width: 100%;
+}
+
+.info .info__video video {
+  position: absolute;
+  top: 30px;
+  left: 95px;
+  width: 213px;
+}
+
+.info .info__video img {
+  z-index: 2;
+  position: relative;
+  max-width: 382px;
 }
