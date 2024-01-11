@@ -11,6 +11,7 @@
   display: flex;
   padding: 0.8rem;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header .header__image {
@@ -44,5 +45,5 @@
 
 .hidden {
   display: none;
-  /* visibility: hidden; */
+  /*visibility: hidden;*/
 }

@@ -1,0 +1,9 @@
+.info {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+.info img, .info video {
+  width: 100%;
+}

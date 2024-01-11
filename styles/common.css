@@ -16,3 +16,7 @@
   color: #FFF;
   color: var(--main-text-color);
 }
+
+* {
+  box-sizing: border-box;
+}
