@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up | codeflix</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/common.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="styles/sign-up.css">
+</head>
+<body class="main-bg bg-image">
+  <div class="card">
+    <h1>Sign up</h1>
+    <!-- Form -->
+    <form method="post" action="/register">
+      <div class="form__element">
+        <label class="form__label" for="mail">Email</label>
+        <input class="form__input" name="email" id="mail" type="email" value="test@test.com" placeholder="Add email" required>
+      </div>
+
+      <div class="form__element">
+        <label class="form__label" for="password">Password</label>
+        <input class="form__input" name="pwd" type="password" id="password" placeholder="Add password" required>
+      </div>
+
+      <div class="form__element">
+        <label class="form__label" for="phone">Enter your phone number:</label>
+        <input
+          class="form__input"
+          type="tel"
+          id="phone"
+          name="phone"
+          required
+          placeholder="111-123-4567"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          value="123-123-1234"
+          title="Format 111-123-4567"
+        >
+      </div>
+
+      <div class="form__element">
+        <label class="form__label" for="avatar">Choose your profile picture</label>
+        <input type="file" id="avatar" name="avatar" accept="image/png" multiple>
+      </div>
+
+      <fieldset class="form__element">
+        <legend>Fav category</legend>
+        <div>
+          <label for="drama">Drama</label>
+          <input type="radio" id="drama" name="favCategory" value="drama" checked>
+          <label for="docu">Docus</label>
+          <input type="radio" id="docu" name="favCategory" value="docu">
+        </div>
+      </fieldset>
+
+      <div class="form__element">
+        <label class="form__label" for="bio">User bio</label>
+        <textarea class="form__input" name="bio" id="bio" placeholder="Add bio" required>default value</textarea>
+      </div>
+
+      <div class="form__element">
+        <label class="form__label" for="newsletter">Subscribe to all news</label>
+        <input type="checkbox" name="newsletter" id="newsletter" value="selected" checked>
+      </div>
+
+      <div class="form__element">
+        <label class="form__label" for="country">Country</label>
+        <select class="form__input" name="country" id="country">
+          <option value="es">Spain</option>
+          <option value="co">Colombia</option>
+        </select>
+      </div>
+
+      <!--
+        <div role="button" tabindex="0">Submit</div>
+      -->
+      <!--
+        <button type="button">Mostrar mas campos</button>
+      -->
+
+      <div>
+        <input class="btn" type="reset" value="Reset fields">
+        <input class="btn" type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

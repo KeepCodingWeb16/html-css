@@ -1,0 +1,11 @@
+.bg-image {
+  background-image: url('../assets/app/catalog.jpg');
+  background-size: 250px;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 40px 20px 50px 20px;
+  margin: 0 auto;
+  max-width: 320px;
+}
