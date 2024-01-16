@@ -8,10 +8,16 @@
   <link rel="stylesheet" href="styles/common.css">
   <link rel="stylesheet" href="styles/components.css">
   <link rel="stylesheet" href="styles/sign-up.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <script src="https://kit.fontawesome.com/8d02c6f9d4.js" crossorigin="anonymous"></script>
 </head>
 <body class="main-bg bg-image">
   <div class="card">
     <h1>Sign up</h1>
+    <span class="material-symbols-outlined" translate="no">
+      settings
+      </span>
+    <i class="fa-brands fa-youtube"></i>
     <!-- Form -->
     <form method="post" action="/register">
       <div class="form__element">
@@ -46,7 +52,7 @@
 
       <fieldset class="form__element">
         <legend>Fav category</legend>
-        <div>
+        <div class="form__element__radio__list">
           <label for="drama">Drama</label>
           <input type="radio" id="drama" name="favCategory" value="drama" checked>
           <label for="docu">Docus</label>
@@ -59,7 +65,7 @@
         <textarea class="form__input" name="bio" id="bio" placeholder="Add bio" required>default value</textarea>
       </div>
 
-      <div class="form__element">
+      <div class="form__element form__element--checkbox">
         <label class="form__label" for="newsletter">Subscribe to all news</label>
         <input type="checkbox" name="newsletter" id="newsletter" value="selected" checked>
       </div>
@@ -78,9 +84,8 @@
       <!--
         <button type="button">Mostrar mas campos</button>
       -->
-
       <div>
-        <input class="btn" type="reset" value="Reset fields">
+        <input class="btn btn--secondary" type="reset" value="Reset fields">
         <input class="btn" type="submit" value="Submit">
       </div>
     </form>

@@ -6,6 +6,13 @@
   border-radius: 5px;
   border: none;
   box-shadow: none;
+  cursor: pointer;
+  border: 1px solid var(--main-brand-color);
+}
+
+.btn.btn--secondary {
+  background-color: transparent;
+  border: 1px solid var(--main-text-color);
 }
 
 .hidden {
@@ -17,6 +24,26 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 12px;
+}
+
+.form__element__radio__list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form__element.form__element--checkbox {
+  flex-direction: row;
+  align-items: center;
+  /* gap: 10px; */
+}
+
+.form__element.form__element--checkbox .form__label {
+  margin: 0;
+}
+
+.form__element.form__element--checkbox input[type="checkbox"] {
+  margin-left: 10px;
 }
 
 .form__label {
