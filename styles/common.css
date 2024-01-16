@@ -6,6 +6,11 @@
   font-family: sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 .main-bg {
   background-color: black;
   background-color: rgb(0, 0, 0);
