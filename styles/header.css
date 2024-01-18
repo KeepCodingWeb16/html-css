@@ -23,12 +23,23 @@
   width: 100%;
 }
 
-.header .header__nav .header__nav__list {
+
+.header .header__nav > .header__nav__list {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   gap: 10px;
+}
+
+.header__nav__list li {
+  position: relative;
+}
+
+.header__nav__list li::after {
+  content: '⚾';
+  position: absolute;
+  left: 0;
 }
 
 .header__nav__list .header__nav__list__item a {
